@@ -18,11 +18,11 @@
 
 #ifdef __APPLE__
 #include <GLUT/glut.h>
+#include <OpenGL/gl.h>
 #else
 #include <GL/glut.h>
 #endif
 
-#include <OpenGL/gl.h>
 #include <unistd.h>
 #include <math.h>
 
